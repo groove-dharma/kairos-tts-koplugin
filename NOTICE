@@ -1,0 +1,27 @@
+NOTICE
+======
+
+This repository is a fork that combines, modifies and ports code from two
+upstream projects. The combined work is distributed under AGPL-3.0
+(see LICENSE).
+
+Third-party code contained in this repository:
+
+- TTS.koplugin/main.lua, TTS.koplugin/_meta.lua: modified from
+  norude/TTS.koplugin (https://github.com/norude/TTS.koplugin), GPLv3.
+- server/python-pyaudio-flask/piper-tts.py: modified from norude/TTS.koplugin
+  (same repository), GPLv3. Modifications are declared in the file header.
+- server/python-pyaudio-flask/common_server.py: unmodified from
+  norude/TTS.koplugin (same repository), GPLv3. That file is itself
+  originally based on the http_server.py of OHF-Voice/piper1-gpl
+  (https://github.com/OHF-Voice/piper1-gpl), GPLv3.
+- TTS.koplugin/textparser.lua: ported and trimmed from the textparser.lua of
+  stradichenko/audiobook.koplugin
+  (https://github.com/stradichenko/audiobook.koplugin), AGPL-3.0,
+  Copyright 2025-2026 gespitia.
+- TTS.koplugin/sentencehighlight.lua: ported and trimmed from the
+  highlightmanager.lua of stradichenko/audiobook.koplugin (same repository),
+  AGPL-3.0, Copyright 2025-2026 gespitia.
+
+All other files are original work by this repository's author, under
+AGPL-3.0.
